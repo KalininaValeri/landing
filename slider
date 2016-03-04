@@ -1,0 +1,65 @@
+<div class="home_slider col-xs-12" id="slider">
+
+   <!-- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+
+        <!--slide 1-->
+
+        <div class="item active">
+          <div class="home_slider_slide1">
+            <div>
+              <span class="home_slider_slide1_expr1">
+                <span class="col-xs-12">good ideas</span><br>
+                comes
+              </span>
+              <span class="home_slider_slide1_expr2">first</span>
+            </div>
+          </div>
+        </div>
+
+        <!--slide 2-->
+
+        <div class="item active">
+          <div class="home_slider_slide2">
+            <div>
+              <span class="home_slider_slide2_expr1">
+                <span>Lorem ipsum</span><br>
+                dolor
+              </span>
+              <span class="home_slider_slide2_expr2">sit</span>
+            </div>
+          </div>
+        </div>
+
+        <!--slide 3-->
+
+        <div class="item active">
+          <div class="home_slider_slide3">
+            <div>
+              <span class="home_slider_slide3_expr1">
+                <span>Duis aute</span><br>
+                irure
+              </span>
+              <span class="home_slider_slide3_expr2">dolor</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
