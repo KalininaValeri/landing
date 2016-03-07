@@ -3,6 +3,10 @@
 @family-text: Myriad Pro, Arial, sans-serif;
 //font-family
 @color-blue: #74c7d5;
+@color-red: #df5c64;
+@color-purpure: #91778e;
+@color-green: #a1ca6c;
+@color-ablue: #82c8bd;
 
 .layout() {
   width: 1600px;
@@ -33,7 +37,7 @@ body {
 
     .header_logo_button:hover,
     .header_logo_button:active,
-    .header_logo_button:focus{
+    .header_logo_button:focus {
       background: @color-text;
     }
   }
@@ -50,13 +54,38 @@ body {
         color: @color-text;
         font-family: @family-text;
         font-size: 18px;
+        background: transparent;
       }
 
     }
-  }
 
-  .home_active {
-    background: rgba(255, 255, 255, 0.3);
+    .header_navbar_home {
+      background: @color-blue;
+    }
+
+    .header_navbar_services {
+      background: @color-red;
+    }
+
+    .header_navbar_about {
+      background: @color-purpure;
+    }
+
+    .header_navbar_work {
+      background: @color-green;
+    }
+
+    .header_navbar_contacts {
+      background: @color-ablue;
+    }
+
+    li:not(.active) {
+      background: transparent;
+    }
+
+    li:hover {
+      background: #f5c149 + #111111;
+    }
   }
 }
 
@@ -85,8 +114,6 @@ body {
         list-style: none;
         padding: 0;
         margin: 0;
-
-
 
         &:after {
           content: '';
@@ -120,7 +147,6 @@ body {
           font: normal 60px/51px @family-text;
           text-align: right;
 
-
           span {
             text-transform: uppercase;
           }
@@ -151,7 +177,6 @@ body {
           font: normal 60px/51px @family-text;
           text-align: right;
 
-
           span {
             text-transform: uppercase;
           }
@@ -181,7 +206,6 @@ body {
           color: @color-blue;
           font: normal 60px/51px @family-text;
           text-align: right;
-
 
           span {
             text-transform: uppercase;
