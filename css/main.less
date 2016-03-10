@@ -4,6 +4,10 @@ body {
   font-family: @family-text;
 }
 
+.content {
+  .layout;
+}
+
 .header {
   background: rgba(0, 0, 0, 0);
   border: 0;
@@ -103,10 +107,6 @@ body {
   }
 }
 
-.content {
-  .layout;
-}
-
 .services {
   width: 100%;
   background: #b24a50 url(../img/bgr-services.png) no-repeat;
@@ -158,6 +158,23 @@ body {
           padding: 0 10px;
         }
       }
+}
+
+.about {
+  width: 100%;
+  background: #665464 url(../img/bgr-about.png) no-repeat;
+  text-align: center;
+  padding: 160px 0 115px;
+  .backgroung-size;
+
+  .about_tooltip {
+    background: url(../img/m-team-bg.png) 50% no-repeat;
+    font-size: 25px;/*  */
+    font-weight: 900;
+    line-height: 58px;/*  */
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
 }
 
 .home {
