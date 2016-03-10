@@ -1,5 +1,5 @@
 body {
-  background: #2c3e50;
+  //background: #2c3e50;
   color: @color-text;
   font-family: @family-text;
 }
@@ -9,6 +9,8 @@ body {
   border: 0;
 
   .header_logo {
+    padding-left: 15px;
+
     .header_logo_button {
       border: 0;
 
@@ -27,6 +29,9 @@ body {
   }
 
   .header_navbar {
+    max-width: 1095px;
+    margin: auto;
+
     li {
       .tab;
 
@@ -97,8 +102,13 @@ body {
   }
 }
 
+.content {
+  max-width: 1125px;
+  margin: auto;
+}
 
 .services {
+  width: 100%;
   background: #b24a50 url(../img/bgr-services.png) no-repeat;
   text-align: center;
   padding: 160px 0 115px;
