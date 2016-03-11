@@ -13,13 +13,11 @@ body {
   border: 0;
   .layout;
 
-
   .header_logo {
     padding-left: 15px;
 
     .header_logo_button {
       border: 0;
-
 
     }
 
@@ -141,23 +139,23 @@ body {
     color: #ffccd0;
   }
 
-      .services_item {
-        border-radius: 5px;
-        background: rgba(200, 83, 90, 0.8);
-        padding: 45px 0;
+  .services_item {
+    border-radius: 5px;
+    background: rgba(200, 83, 90, 0.8);
+    padding: 45px 0;
 
-        .services_item_title {
-          font: 100 30px/38px @family-text;
-          text-transform: uppercase;
-          margin: 20px 0 45px;
-        }
+    .services_item_title {
+      font: 100 30px/38px @family-text;
+      text-transform: uppercase;
+      margin: 20px 0 45px;
+    }
 
-        .services_item_paragraph {
-          font: 400 14px/20px @family-text;
-          margin: 0;
-          padding: 0 10px;
-        }
-      }
+    .services_item_paragraph {
+      font: 400 14px/20px @family-text;
+      margin: 0;
+      padding: 0 10px;
+    }
+  }
 }
 
 .about {
@@ -168,30 +166,30 @@ body {
   .backgroung-size;
 
   .about_title2 {
-    font-size: 60px;/* Приближение из-за подстановки шрифтов */
-    line-height: 58px;/* Приближение из-за подстановки шрифтов */
+    font-size: 60px; /* Приближение из-за подстановки шрифтов */
+    line-height: 58px; /* Приближение из-за подстановки шрифтов */
     text-transform: uppercase;
     margin-bottom: 15px;
   }
 
   .about_paragraph {
-    color:  #e6d1e3;
-    font-size: 14px;/* Приближение из-за подстановки шрифтов */
-    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    color: #e6d1e3;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
   }
 
   .about_tooltip {
     background: url(../img/m-team-bg.png) 50% no-repeat;
-    font-size: 25px;/*  */
+    font-size: 25px; /*  */
     font-weight: 900;
-    line-height: 58px;/*  */
+    line-height: 58px; /*  */
     text-transform: uppercase;
     padding-bottom: 10px;
     margin: 45px 0 55px;
   }
 
   .about_item {
-    background-color:  rgba(77, 63, 75, 0.5);
+    background-color: rgba(77, 63, 75, 0.5);
     border-radius: 5px;
     padding: 45px 0 30px;
 
@@ -201,18 +199,18 @@ body {
     }
 
     .about_item_title {
-      color:  #c7b6c5;
-      font-size: 26px;/*  */
+      color: #c7b6c5;
+      font-size: 26px; /*  */
       font-weight: 900;
-      line-height: 26px;/*  */
+      line-height: 26px; /*  */
       text-transform: uppercase;
       margin: 20px 0 10px;
     }
 
-    .about_item_paragraph{
-      font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    .about_item_paragraph {
+      font-size: 14px; /* Приближение из-за подстановки шрифтов */
       font-weight: 400;
-      line-height: 14px;/* Приближение из-за подстановки шрифтов */
+      line-height: 14px; /* Приближение из-за подстановки шрифтов */
       color: #a1ca6c;
     }
 
@@ -245,17 +243,14 @@ body {
       }
     }
 
-
-
-
-    }
+  }
 
   .about_item:hover {
     .about_item_title {
-      color:  @color-text;
+      color: @color-text;
     }
 
-    .about_item_paragraph{
+    .about_item_paragraph {
       color: @color-red;
     }
 
@@ -272,16 +267,45 @@ body {
     }
 
     .icon_goo {
-      background-position: -348px -1px ;
+      background-position: -348px -1px;
     }
 
     .icon_i {
-      background-position: -148px -1px ;
+      background-position: -148px -1px;
     }
 
   }
+}
+
+.contacts {
+  width: 100%;
+  background: #75b4aa url(../img/bgr_contacts.png) no-repeat;
+  text-align: center;
+  padding: 175px 0 115px;
+
+  .contacts_adress,
+  .contacts_map,
+  .contacts_forma{
+    height: 200px;
+    background: @color-ablue;
   }
 
+  .contacts_adress,
+  .contacts_map {
+    width: 250px;
+  }
+
+
+  .contacts_forma {
+    width: 530px;
+  }
+
+
+}
+
+.block_sprite  {
+  background: #68a097;
+ }
 
 .home {
   .layout;
