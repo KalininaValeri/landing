@@ -278,29 +278,53 @@ body {
 }
 
 .contacts {
+
+  * {
+    margin: 0;
+  }
+
   width: 100%;
   background: #75b4aa url(../img/bgr_contacts.png) no-repeat;
   text-align: center;
   padding: 175px 0 115px;
 
-  .contacts_adress,
-  .contacts_map,
-  .contacts_forma{
-    height: 200px;
-    background: @color-ablue;
+  .contacts_address {
+    text-align: left;
+
+    .contacts_address_title3 {
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 30px;
+      margin-bottom: 30px;
+    }
+
+    .contacts_address_title4 {
+      color:  #c0dfda;
+      font-size: 20px;
+      line-height: 16.8px;
+      margin-bottom: 20px;
+    }
+
+    .contacts_address_add {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 16px;
+      margin-bottom: 70px;
+      display: inline-block;
+    }
+
+    .contacts_address_cont {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 16px;
+      display: inline-block;
+
+
+      .contacts_address_cont_phone {
+        color:  #d0efea;
+      }
+    }
   }
-
-  .contacts_adress,
-  .contacts_map {
-    width: 250px;
-  }
-
-
-  .contacts_forma {
-    width: 530px;
-  }
-
-
 }
 
 .block_sprite  {
