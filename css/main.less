@@ -284,7 +284,7 @@ body {
   padding: 175px 0 115px;
 
   .contacts_title2 {
-    color:  #ffffff;
+    color: #ffffff;
     font-size: 60px;
     font-weight: 100;
     line-height: 58px;
@@ -314,7 +314,7 @@ body {
     }
 
     .contacts_address_title4 {
-      color:  #c0dfda;
+      color: #c0dfda;
       font-size: 20px;
       line-height: 16.8px;
       margin-bottom: 20px;
@@ -334,9 +334,8 @@ body {
       line-height: 16px;
       display: inline-block;
 
-
       .contacts_address_cont_phone {
-        color:  #d0efea;
+        color: #d0efea;
       }
     }
   }
@@ -348,10 +347,48 @@ body {
     }
 
     .contacts_forma_label {
-      font-size: 30px;/* Приближение из-за подстановки шрифтов */
+      font-size: 30px; /* Приближение из-за подстановки шрифтов */
       font-weight: 100;
-      line-height: 30px;/* Приближение из-за подстановки шрифтов */
+      line-height: 30px; /* Приближение из-за подстановки шрифтов */
       text-align: left;
+      margin-bottom: 35px;
+    }
+
+    .form-control {
+      background-color: #68a097;
+      border: 0 solid #68a097;
+      max-width: 260px;
+
+      &::-webkit-input-placeholder {color:@color-ablue;}
+      &::-moz-placeholder {color:@color-ablue;}
+      &:-moz-placeholder {color:@color-ablue;}
+      &:-ms-input-placeholder {color:@color-ablue;}
+    }
+
+    .form-control.contacts_forma_que {
+      max-width: 540px;
+      height: 159px;
+      margin: 20px 0 30px;
+    }
+
+    .form-control:focus {
+      background: @color-text;
+      border: 0 solid @color-text;
+    }
+
+    .contacts_forma_button {
+      text-align: center;
+
+      .btn-default {
+        background: @color-red;
+        color:  #ffffff;
+        font-size: 26px;/* Приближение из-за подстановки шрифтов */
+        font-weight: 900;
+        line-height: 21px;/* Приближение из-за подстановки шрифтов */
+        border: 0;
+        border-bottom: 5px solid #c8535a;
+        padding: 15px 95px;
+      }
     }
   }
 }
