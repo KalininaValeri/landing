@@ -1,8 +1,14 @@
 $(function () {
-    $('body').scrollspy({target: '.header_navbar'});
+    var body = $('body');
+
+    // menu site
+    body.scrollspy({target: '.header_navbar'});
 
     initMap();
-    // $('.carousel').carousel();
+     $('.carousel').carousel();
+
+    // the height of the screen
+    body.append('<style>.section.full-height{height:' + $( window ).height() + 'px!important;}</style>')
 });
 
 function initMap() {
@@ -20,3 +26,5 @@ function initMap() {
         zoom: 17
     });
 };
+
+$(window).height();
