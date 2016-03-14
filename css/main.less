@@ -34,37 +34,73 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
-    /*display: table-cell;
-    vertical-align: middle;
-    text-align: center;*/
+  }
 
-    .home_slide1_exprs {
+  .home_slide2 {
+    background: url(../img/slide2.png) no-repeat 50%;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .home_slide3 {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+    .home_slide_exprs {
       height: 100%;
+      width: 100%;
 
-      div {
+      .row {height: 100%;} /*bootstrap's class*/
+
+      .table {
+        display: table;
+        width: 100%;
         height: 100%;
-      }
 
-      .home_slide1_expr1 {
-        height: 100%;
-        color: @color-blue;
-        font: normal 60px/51px @family-text;
-        text-align: right;
-        vertical-align: center;
+        .table-cell {
+          display: table-cell;
+          height: 100%;
+          width: 100%;
+          vertical-align: middle;
+          text-align: center;
 
-        span {
-          text-transform: uppercase;
+          .span {
+            display: inline-block;
+            border-radius: 4px;
+            background-color:  rgba(255, 255, 255, 0.3);
+            padding: 40px 35px;
+
+            .home_slide_expr1 {
+              color: @color-blue;
+              font: normal 60px/51px @family-text;
+              text-align: right;
+
+              span {
+                text-transform: uppercase;
+              }
+            }
+
+            .home_slide_expr2 {
+              text-transform: uppercase;
+              color: @color-blue;
+              font: bold 139px/108px @family-text;
+              display: table-cell;
+              vertical-align: middle;
+
+
+            }
+          }
         }
       }
 
-      .home_slide1_expr2 {
-        text-transform: uppercase;
-        color: @color-blue;
-        font: bold 139px/108px @family-text;
 
-      }
+
+
     }
-  }
+
 
   .home_slider_slide2 {
     padding: 416px;
