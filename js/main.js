@@ -8,7 +8,7 @@ $(function () {
      $('.carousel').carousel();
 
     // the height of the screen
-    body.append('<style>.section.full-height{height:' + $( window ).height() + 'px!important;}</style>')
+    body.append('<style>section .full-height{height:' + $( window ).height() + 'px!important;}</style>')
 });
 
 function initMap() {
