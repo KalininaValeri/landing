@@ -1,52 +1,28 @@
-.facebook, .facebook_s, .g+, .g+-(1), .linkedin-, .linkedin_s, .twetter, .twetter_s{
+.facebook, .g+-(2), .linkedin, .twetter{
 	background: url(sprites.png) no-repeat;
 }
 
 .facebook{
-	background-position: -48px 0;
-	width: 31px;
-	height: 31px;
-}
-
-.facebook_s{
 	background-position: 0 -1px ;
-	width: 31px;
-	height: 31px;
+	width: 60px;
+	height: 60px;
 }
 
-.g+{
-	background-position: -249px -2px ;
-	width: 31px;
-	height: 31px;
+.g+-(2){
+	background-position: -200px 0;
+	width: 60px;
+	height: 60px;
 }
 
-.g+-(1){
-	background-position: -195px -1px ;
-	width: 31px;
-	height: 31px;
-}
-
-.linkedin-{
-	background-position: -348px -1px ;
-	width: 31px;
-	height: 31px;
-}
-
-.linkedin_s{
-	background-position: -297px -1px ;
-	width: 31px;
-	height: 31px;
+.linkedin{
+	background-position: -301px 0;
+	width: 60px;
+	height: 60px;
 }
 
 .twetter{
-	background-position: -148px -1px ;
-	width: 31px;
-	height: 31px;
-}
-
-.twetter_s{
-	background-position: -100px -1px ;
-	width: 31px;
-	height: 31px;
+	background-position: -99px 0;
+	width: 60px;
+	height: 60px;
 }
 
