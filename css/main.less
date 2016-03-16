@@ -524,59 +524,20 @@ body {
   .navbar-inverse .navbar-collapse {
     border-color: @color-green;
   }
-  .navbar-inverse .navbar-nav > .open > a,
-  .navbar-inverse .navbar-nav > .open > a:hover,
-  .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #fff;
-    background-color: #080808;
-  }
-  @media (max-width: 767px) {
-    .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-      border-color: #080808;
-    }
-    .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-      background-color: #080808;
-    }
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-      color: #9d9d9d;
-    }
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-      color: #fff;
-      background-color: transparent;
-    }
-    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
-    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
-    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-      color: #fff;
-      background-color: #080808;
-    }
-    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
-    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-      color: #444;
-      background-color: transparent;
+
+  .gallery_works {
+    .gallery_works_item {
+      li {
+        list-style: none;
+        margin: 10px;
+
+        img {
+          width: 100%;
+        }
+      }
     }
   }
-  .navbar-inverse .navbar-link {
-    color: #9d9d9d;
-  }
-  .navbar-inverse .navbar-link:hover {
-    color: #fff;
-  }
-  .navbar-inverse .btn-link {
-    color: #9d9d9d;
-  }
-  .navbar-inverse .btn-link:hover,
-  .navbar-inverse .btn-link:focus {
-    color: #fff;
-  }
-  .navbar-inverse .btn-link[disabled]:hover,
-  fieldset[disabled] .navbar-inverse .btn-link:hover,
-  .navbar-inverse .btn-link[disabled]:focus,
-  fieldset[disabled] .navbar-inverse .btn-link:focus {
-    color: #444;
-  }
+
 }
 
 .contacts {
