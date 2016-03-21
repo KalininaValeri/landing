@@ -555,16 +555,19 @@ body {
     margin: 0;
   }
 
-  .navbar-inverse .navbar-nav > li > a { //bootstrap
+  .navbar-inverse .navbar-nav > .filter { //bootstrap
     color:  #ffffff;
     font-size: 16px;
     font-weight: 700;
     line-height: 16px;
     padding: 10px;
     margin-left: 35px;
+    cursor: pointer;
   }
-  .navbar-inverse .navbar-nav > li > a:hover, //bootstrap
-  .navbar-inverse .navbar-nav > li > a:focus {
+  .navbar-inverse .navbar-nav > .filter:hover, //bootstrap
+  .navbar-inverse .navbar-nav > .filter:focus,
+  .navbar-inverse .navbar-nav > .active{
+    display: inline-block;
     color: #fff;
     background-color: #f5c149;
     border-radius: 4px;
