@@ -11,7 +11,9 @@ $(function () {
     body.append('<style>section .full-height{height:' + $( window ).height() + 'px!important;}</style>');
 
     // Instantiate MixItUp:
-    $('#Container').mixItUp()
+    $('#Container').mixItUp();
+
+   // $('#myModal').modal('handleUpdate')
 });
 
 function initMap() {
