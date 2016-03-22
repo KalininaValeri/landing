@@ -8,6 +8,107 @@ body {
   .layout;
 }
 
+.header {
+  //background: red;
+  border: 0;
+  //.layout;
+
+  .nav .navbar-fixed-top {
+    background: red;
+  }
+
+  .header_logo {
+    padding-left: 15px;
+
+    .header_logo_button {
+      border: 0;
+
+    }
+
+    .header_logo_button:hover,
+    .header_logo_button:active,
+    .header_logo_button:focus {
+      background: @color-text;
+    }
+
+    img {
+      margin-top: 23px;
+    }
+  }
+
+  .header_navbar {
+    padding-right: 15px;
+
+    li {
+      .tab;
+
+      a {
+        text-align: center;
+        padding: 37px 0 11px;
+        display: block;
+        width: 100px;
+        color: @color-text;
+        font-family: @family-text;
+        font-size: 18px;
+        background: transparent;
+      }
+
+    }
+
+    .header_navbar_home {
+      background: @color-blue;
+    }
+
+    .header_navbar_services {
+      background: @color-red;
+    }
+
+    .header_navbar_about {
+      background: @color-purpure;
+    }
+
+    .header_navbar_work {
+      background: @color-green;
+    }
+
+    .header_navbar_contacts {
+      background: @color-ablue;
+    }
+
+    li:not(.active) {
+      background: transparent;
+    }
+
+    li:hover {
+      background: #f5c149 + #111111;
+    }
+  }
+
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover,
+  .navbar-nav > .active > a:focus {
+    color: @color-text;
+  }
+
+  .navbar-toggle {
+    border-color: #ddd;
+  }
+
+  .navbar-toggle:hover,
+  .navbar-toggle:focus {
+    background-color: #ddd;
+  }
+
+  .navbar-toggle .icon-bar {
+    background-color: #888;
+  }
+
+  .navbar-collapse,
+  .navbar-form {
+    border-color: #e7e7e7;
+  }
+}
+
 .home {
   //.layout;
   background: #2c3e50;
@@ -177,103 +278,6 @@ body {
     }
   }
 
-}
-
-.header {
-  background: rgba(0, 0, 0, 0);
-  border: 0;
-  .layout;
-
-  .header_logo {
-    padding-left: 15px;
-
-    .header_logo_button {
-      border: 0;
-
-    }
-
-    .header_logo_button:hover,
-    .header_logo_button:active,
-    .header_logo_button:focus {
-      background: @color-text;
-    }
-
-    img {
-      margin-top: 23px;
-    }
-  }
-
-  .header_navbar {
-    padding-right: 15px;
-
-    li {
-      .tab;
-
-      a {
-        text-align: center;
-        padding: 37px 0 11px;
-        display: block;
-        width: 100px;
-        color: @color-text;
-        font-family: @family-text;
-        font-size: 18px;
-        background: transparent;
-      }
-
-    }
-
-    .header_navbar_home {
-      background: @color-blue;
-    }
-
-    .header_navbar_services {
-      background: @color-red;
-    }
-
-    .header_navbar_about {
-      background: @color-purpure;
-    }
-
-    .header_navbar_work {
-      background: @color-green;
-    }
-
-    .header_navbar_contacts {
-      background: @color-ablue;
-    }
-
-    li:not(.active) {
-      background: transparent;
-    }
-
-    li:hover {
-      background: #f5c149 + #111111;
-    }
-  }
-
-  .navbar-nav > .active > a,
-  .navbar-nav > .active > a:hover,
-  .navbar-nav > .active > a:focus {
-    color: @color-text;
-  }
-
-  .navbar-toggle {
-    border-color: #ddd;
-  }
-
-  .navbar-toggle:hover,
-  .navbar-toggle:focus {
-    background-color: #ddd;
-  }
-
-  .navbar-toggle .icon-bar {
-    background-color: #888;
-  }
-
-  .navbar-collapse,
-  .navbar-form {
-    border-color: #e7e7e7;
-  }
 }
 
 .services {
