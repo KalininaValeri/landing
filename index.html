@@ -326,15 +326,9 @@
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
                         <h3 class="navbar-brand" href="#">Portfolio</h3>
                     </div>
-                    <div class="navbar-collapse collapse">
+                    <div class="navbar-collapse">
                         <div class="nav navbar-nav navbar-right">
                             <span class="filter" data-filter="all">All</span>
                             <span class="filter" data-filter=".photo">Photo</span>
@@ -349,18 +343,17 @@
                 <div id = "Container">
                     <div class="mix photo">
                         <div class="gallery_works_item">
-                            <div class="gallery_works_item_rect"></div>
                             <img src="img/photo1.png">
-                            <div class="btn gallery_works_item_hover" data-toggle="modal" data-target=".bs-example-modal-lg"></div>
-
-                            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-                                <div class="modal-dialog modal-lg">
+                            <div class="btn gallery_works_item_hover"></div>
+                            <div class="bth gallery_works_item_rect" data-toggle="modal" data-target="#myModal"></div>
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                <div class="modal-dialog" role="document">
                                     <div class="modal-content">
-                                        ...
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            <img src="img/photo1.png">
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="gallery_works_title">Aenean a elit</div>
                     </div>

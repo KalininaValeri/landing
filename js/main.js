@@ -4,6 +4,7 @@ $(function () {
     // menu site
     body.scrollspy({target: '.header_navbar'});
 
+    //slider
     initMap();
      $('.carousel').carousel();
 
@@ -13,7 +14,7 @@ $(function () {
     // Instantiate MixItUp:
     $('#Container').mixItUp();
 
-   // $('#myModal').modal('handleUpdate')
+    //$('#myModal').modal('toggle')
 });
 
 function initMap() {
