@@ -4,11 +4,17 @@ $(function () {
     // menu site
     body.scrollspy({target: '.header_navbar'});
 
+    //slider
     initMap();
      $('.carousel').carousel();
 
     // the height of the screen
-    body.append('<style>section .full-height{height:' + $( window ).height() + 'px!important;}</style>')
+    body.append('<style>section .full-height{height:' + $( window ).height() + 'px!important;}</style>');
+
+    // Instantiate MixItUp:
+    $('#Container').mixItUp();
+
+    //$('#myModal').modal('toggle')
 });
 
 function initMap() {

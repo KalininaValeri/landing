@@ -450,22 +450,147 @@ body {
 
 .work {
   width: 100%;
-  background: #665464 url(../img/bgr-work.png) no-repeat;
+  background: #81a256 url(../img/bgr-work.png) no-repeat;
   text-align: center;
   padding: 175px 0 115px;
   .backgroung-size;
 
+  #Container .mix{ //mixitab
+    display: none;
+  }
+
+  .mix { //mixitab
+    width: 22%;
+    margin: 1%;
+
+
+    .gallery_works_item {
+      position: relative;
+
+      img {
+        width: 100%;
+        .border_top_radius();
+      }
+
+      .gallery_works_item_hover {
+        .border_top_radius();
+        display: none;
+        background: url(../img/plus.png) 50% no-repeat rgba(61, 77, 41, 0.7);
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      .gallery_works_item_rect {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: url(../img/Rectangle.png) no-repeat;
+        background-position: center bottom;
+
+      }
+
+      .modal-content img {
+        .tab;
+      }
+    }
+  }
+
+  .gallery_works_title {
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    background: @color-text;
+    padding: 20px 0;
+    .tab;
+  }
+
+  .mix:hover {
+    .gallery_works_item_hover {
+      display: block;
+    }
+  }
+
   .title2 {
-    font-size: 60px; /* Приближение из-за подстановки шрифтов */
-    line-height: 58px; /* Приближение из-за подстановки шрифтов */
+    font-size: 60px;
+    line-height: 58px;
     text-transform: uppercase;
     margin-bottom: 15px;
   }
 
   .paragraph {
-    font-size: 14px; /* Приближение из-за подстановки шрифтов */
-    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    font-size: 14px;
+    line-height: 24px;
   }
+
+  .navbar-inverse { //bootstrap
+    background-color: transparent;
+    margin: 0;
+    padding: 10px 0;
+    border-top: 1px solid @color-green;
+    border-bottom: 1px solid @color-green;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+  }
+
+  .navbar-inverse .navbar-toggle { //bootstrap
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 0 solid transparent;
+    border-radius: 4px;
+  }
+  .navbar-inverse .navbar-brand { //bootstrap
+    color: @color-text;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    height: auto;
+    margin: 0;
+  }
+
+  .navbar-inverse .navbar-nav > .filter { //bootstrap
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 10px;
+    margin-left: 35px;
+    cursor: pointer;
+  }
+  .navbar-inverse .navbar-nav > .filter:hover, //bootstrap
+  .navbar-inverse .navbar-nav > .filter:focus,
+  .navbar-inverse .navbar-nav > .active{
+    display: inline-block;
+    color: #fff;
+    background-color: #f5c149;
+    border-radius: 4px;
+  }
+  .navbar-inverse .navbar-nav > .selected > a, //bootstrap
+  .navbar-inverse .navbar-nav > .selected > a:hover,
+  .navbar-inverse .navbar-nav > .selected > a:focus {
+    color: #fff;
+    background-color: #f5c149;
+    border-radius: 4px;
+  }
+
+
+  .navbar-inverse .navbar-collapse { //bootstrap
+    border-color: @color-green;
+  }
+
 }
 
 .contacts {
