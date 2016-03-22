@@ -363,10 +363,21 @@ body {
     background-color: rgba(77, 63, 75, 0.5);
     border-radius: 5px;
     padding: 45px 0 30px;
+    position: relative;
 
     .about_item_photo {
+      background: url(../img/user.png);
       border-radius: 50%;
       border: 5px solid #a1859e;
+    }
+
+    .about_item_photo_hover {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+
     }
 
     .about_item_title {
@@ -427,6 +438,11 @@ body {
 
     .about_item_photo {
       border: 5px solid @color-red;
+    }
+
+    .about_item_photo_hover{
+      background: url(../img/user_hover.png) no-repeat;
+      background-position: 50% 22%;
     }
 
     .icon_f {
